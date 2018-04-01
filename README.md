@@ -8,3 +8,8 @@ This package can be installed from PyPi by running:
 ```
 pip install chatterbot
 ```
+You will find the path of Chatterbot-corpus 
+Python installation folder
+```
+Python > Lib > site-packages > chatterbot_corpus
+```
