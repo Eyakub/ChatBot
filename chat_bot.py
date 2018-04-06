@@ -8,9 +8,9 @@ sys.setdefaultencoding('utf8')
 bot = ChatBot('Bot')
 bot.set_trainer(ListTrainer)
 
-for files in os.listdir('C:\Python27\Lib\site-packages\chatterbot_corpus\data\Bangla/'):
-    data = open('C:\Python27\Lib\site-packages\chatterbot_corpus\data\Bangla/' + files , 'r').readlines()
-    bot.train(data)
+# for files in os.listdir('C:\Python27\Lib\site-packages\chatterbot_corpus\data\Bangla/'):
+#     data = open('C:\Python27\Lib\site-packages\chatterbot_corpus\data\Bangla/' + files , 'r').readlines()
+#     bot.train(data)
 
 
 while True:
